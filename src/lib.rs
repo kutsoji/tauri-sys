@@ -141,6 +141,8 @@ pub mod os;
 pub mod path;
 #[cfg(feature = "process")]
 pub mod process;
+#[cfg(feature = "shell")]
+pub mod shell;
 #[cfg(feature = "tauri")]
 pub mod tauri;
 #[cfg(feature = "updater")]

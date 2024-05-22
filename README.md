@@ -55,6 +55,7 @@ All modules are gated by accordingly named Cargo features. It is recommended you
 - **event**: Enables the `event` module.
 - **fs**: Enables the `fs` module.
 - **mocks**: Enables the `mocks` module.
+- **shell**: Enables the `shell` module.
 - **tauri**: Enables the `tauri` module.
 
 ## Are we Tauri yet?
@@ -74,7 +75,7 @@ These API bindings are not completely on-par with `@tauri-apps/api` yet, but her
 - [x] `os`
 - [x] `path`
 - [x] `process`
-- [ ] `shell`
+- [x] `shell`
 - [x] `tauri`
 - [ ] `updater`
 - [x] `window`
